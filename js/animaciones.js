@@ -27,6 +27,7 @@ const handlerPrincipal = () => {
           botones[0].checked = true;
           botones[i].checked = false;
         }
+        break;
       }
     }
   }, TIEMPO_CICLO * 1000); // Se itera según eel tiempo de duración indicado arriba
