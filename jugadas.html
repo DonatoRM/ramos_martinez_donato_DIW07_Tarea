@@ -23,7 +23,9 @@
     <div id="contenedor">
       <h1>Mejores jugadas liga BBVA</h1>
       <div class="video">
-        <video src="video/goles.mp4" controls autoplay preload>
+        <!-- Se elimina el atributo "autoplay" para que no comience el vídeo automáticamente, y se añade el atributo "poster" (con la URL
+          de la imagen del logotipo de la liga) para que coja por defecto dicha foto antes de empezar a reproducir el contenido) -->
+        <video src="video/goles.mp4" controls poster="./img/liga.png" preload>
           Este explorador no soporta HTML5
         </video>
       </div>
